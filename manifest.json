@@ -1,0 +1,21 @@
+{
+  "name": "UniCal - Mi Agenda Unificada",
+  "short_name": "UniCal",
+  "description": "Agenda unificada para todas mis cuentas",
+  "start_url": "/unical.html",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/192",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://via.placeholder.com/512",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}Añadido manifest para PWA
