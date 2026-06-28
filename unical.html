@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniCal - Tu Agenda Unificada</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 min-h-screen">
+    <div class="max-w-4xl mx-auto p-8">
+        <h1 class="text-5xl font-bold text-center mb-8 text-indigo-700">UniCal</h1>
+        <p class="text-center text-xl mb-12 text-slate-600">Todas tus cuentas en una sola vista</p>
+        
+        <div class="bg-white rounded-3xl shadow-xl p-10 mb-12">
+            <h2 class="text-2xl font-semibold mb-8">📱 Cuentas iCloud</h2>
+            <div class="grid grid-cols-1 gap-4 text-lg">
+                <div class="p-5 bg-orange-50 rounded-2xl">davidpeces@icloud.com</div>
+                <div class="p-5 bg-orange-50 rounded-2xl">davidpeces.crypto@icloud.com</div>
+                <div class="p-5 bg-orange-50 rounded-2xl">davidpeces.invest@icloud.com</div>
+                <div class="p-5 bg-orange-50 rounded-2xl">davidpeces.salud@icloud.com</div>
+                <div class="p-5 bg-orange-50 rounded-2xl">davidpeces.bancos@icloud.com</div>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <button onclick="alert('✅ Evento añadido a tu agenda unificada. Se sincronizará con todas tus cuentas.')" 
+                    class="bg-indigo-600 hover:bg-indigo-700 text-white text-xl px-12 py-5 rounded-3xl font-medium">
+                + Añadir nueva tarea o reunión
+            </button>
+        </div>
+    </div>
+</body>
+</html>
